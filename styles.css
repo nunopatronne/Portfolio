@@ -2,10 +2,19 @@ body {
     font-family: "Lato", sans-serif;
     color: #676858;
     font-weight: 300;
+    color: white;
+
+   
 }
 
 .container {
     display: grid;
+    background-image: url("img/background.jpg");
+}
+article{
+    color: white;
+
+
 }
 
 .img-responsive {
@@ -18,20 +27,22 @@ body {
 }
 
 .text-muted {
-    color: #bcbbbb;
+    color: white;
 }
 
 .text-thin {
-    font-weight: 100;
+    font-weight: 200;
 }
+
 
 .title-super {
     font-size: 60px;
+    text-shadow: 3px 3px black;
 }
 
 .title-logo {
     margin-top: 20px;
-    max-width: 150px;
+    max-width: 300px;
 }
 
 a p:hover {
@@ -41,6 +52,9 @@ a p:hover {
 .brightness {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+}
+img{
+    filter: brightness(150%);
 }
 
 a img:hover {
@@ -54,6 +68,7 @@ a img:hover {
 }
 
 footer {
+    margin: 20px 0 20px 0;
     text-align: center;
     font-size: 30px;
 }
