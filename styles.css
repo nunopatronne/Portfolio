@@ -1,0 +1,59 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #676858;
+    font-weight: 300;
+}
+
+.container {
+    display: grid;
+}
+
+.img-responsive {
+    max-width: 500px;
+}
+
+.img-featured {
+    max-width: 360px;
+    height: 290px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+    max-width: 150px;
+}
+
+a p:hover {
+    text-decoration: underline;
+}
+
+.brightness {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a img:hover {
+    filter: brightness(130%);
+    -webkit-filter: brightness(130%);
+    -moz-filter: brightness(130%);
+    -o-filter: brightness(130%);
+    -ms-filter: brightness(130%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+}
