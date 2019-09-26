@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
 body {
     font-family: "Lato", sans-serif;
     color: #676858;
@@ -9,6 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     display: grid;
+    
 }
 
 .container {
