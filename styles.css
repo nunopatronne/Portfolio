@@ -3,18 +3,27 @@ body {
     color: #676858;
     font-weight: 300;
     color: white;
-
-   
+    width: 100%;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
 }
 
 .container {
     display: grid;
-    background-image: url("img/background.jpg");
+
 }
+a{
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
 article{
     color: white;
-
-
 }
 
 .img-responsive {
@@ -36,7 +45,7 @@ article{
 
 
 .title-super {
-    font-size: 60px;
+    font-size: 5rem;
     text-shadow: 3px 3px black;
 }
 
@@ -66,9 +75,54 @@ a img:hover {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+#contactos{
+    margin: 30px 0 30px 0;
+}
+
 
 footer {
     margin: 20px 0 20px 0;
     text-align: center;
     font-size: 30px;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    header{
+        text-align: center;
+        padding: none;
+    }
+
+    .logo{
+        width: 50%;
+        margin: auto;
+    }
+
+    header img{
+        width: 100%
+    }
+
+    .right-side-xs{
+        text-align: right;
+
+    }
+
+    .text-muted{
+        text-align: center;
+
+    }
+
+    
+    article img{
+        width: 50%;
+        margin: auto;
+    }
+
+    #contactos{
+        font-size: 3rem;
+    }
+
+    
+
+
+  }
